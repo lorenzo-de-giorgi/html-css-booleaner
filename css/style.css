@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -19,10 +20,72 @@ h1 {
     font-size: 40px;
 }
 
+h2 {
+    margin-top: 25px;
+    font-size: 20px;
+    color: grey;
+}
+
+p {
+    margin-top: 25px;
+}
+
 .grey-text {
     color: rgb(158, 158, 158);
 }
 
 .blue-text {
     color: rgb(108, 183, 229);
+}
+
+.photo-description {
+    font-size: 13px;
+}
+
+.yellow-background {
+    background-color: yellow;
+}
+
+ul {
+    margin-bottom: 25px;
+}
+
+.table {
+    text-align: left;
+}
+
+thead {
+    background-color: rgb(81, 167, 224);
+    color: white;
+}
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    border-spacing: 20px 0;
+}
+
+td {
+    width: 500px;
+}
+
+.riga-1 {
+    background-color: rgb(188, 228, 240);   
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+.monitor-image {
+    background-image: url(../img/monitor.jpg);
+    color: white;
+    width: 260px;
+    height: 208px;
+}
+
+.graph-image {
+    background-image: url(../img/graph.jpg);
+    color: white;
+    width: 260px;
+    height: 208px;
 }
