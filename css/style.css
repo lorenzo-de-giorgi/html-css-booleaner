@@ -1,17 +1,28 @@
 * {
     margin: 0;
-    padding: 0;
 }
 
 header {
     background-color: rgb(99, 158, 248);
     background-image: url("../img/pattern.png");
-    background-size: 450px;
-    padding: 20px;
+    background-size: 400px;
+    padding: 15px;
     margin-bottom: 10px;
 }
 
 .logo {
-    width: 250px;
+    width: 170px;
     margin-top: 20px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.grey-text {
+    color: rgb(158, 158, 158);
+}
+
+.blue-text {
+    color: rgb(108, 183, 229);
 }
