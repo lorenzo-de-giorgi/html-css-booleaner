@@ -3,6 +3,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
 header {
     background-color: rgb(99, 158, 248);
     background-image: url("../img/pattern.png");
@@ -38,6 +43,15 @@ p {
     color: rgb(108, 183, 229);
 }
 
+.spazio {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.photo {
+    margin-top: 20px;
+}
+
 .photo-description {
     font-size: 13px;
 }
@@ -48,6 +62,7 @@ p {
 
 ul {
     margin-bottom: 25px;
+    padding: 20px
 }
 
 .table {
